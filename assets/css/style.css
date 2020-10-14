@@ -70,29 +70,32 @@ a{
 
 
 /* header e nav */
-.header-nav{
+header{
+  position: relative;
+}
+.header-l{
   width: 100%;
-  padding: 10px;
-  /* background-color: white; */
-  background-color: black;
+  height: 300px;
+  position: relative;
+  border: 10px solid white;
+  background-image: url(https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg);
+  background-size: cover;
   color: white;
 }
-header{
-  width: 100%;
-  /* height: 800px; */
-  position: relative;
-  border: 1px solid white;
-}
-header:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.header-background{
-  width: 90%;
-}
+
 .header-logo{
   width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+nav{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: red;
 }
 nav > h2{
   display: inline;
