@@ -25,7 +25,7 @@ h1, p{
 
 #ombreggiatura{
   font-weight: 600;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px gray;
 }
 
 .widget, .articolo{
@@ -70,6 +70,7 @@ a{
 
 /* header e nav */
 header{
+  text-align: center;
   position: relative;
 }
 .header-l{
@@ -103,17 +104,16 @@ nav{
   left: 0;
   background-color: gray;
 }
-.nav-flat{
-  width: 80%;
-  font-size: 15px;
+.nav-inline{
+  width: 100%;
+  font-size: 8px;
 }
-.nav-flat > h2{
+.nav-inline > h2{
   padding: 10px;
   display: inline-block;
   position: relative;
-  left: 22%;
 }
-.nav-flat > h2:hover{
+.nav-inline > h2:hover{
   background: lightgray;
 }
 /* \header e nav\ */
