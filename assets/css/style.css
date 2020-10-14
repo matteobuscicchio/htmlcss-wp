@@ -1,0 +1,115 @@
+*{
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  margin-top: 20px;
+  position: relative;
+  background-image: url(https://media.istockphoto.com/photos/old-distressed-light-wood-texture-background-picture-id489904811);
+  background-size: cover;
+}
+main{
+  width: 100%
+}
+main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 65%;
+  margin: 0 auto;
+}
+
+
+.intestazione{
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  background-color: orange;
+  /* background-image: url(https://happytobehere.it/wp-content/uploads/2017/11/Dark-Hedges-1d-e1511280203785.jpg); */
+}
+
+/* corpopagina */
+.colonna{
+  width: 25%;
+  padding: 10px;
+}
+
+.widget{
+  width: 100%;
+}
+.widget:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.widget h2{
+  width: 60%;
+  font-weight: 600;
+}
+
+
+.corpo{
+  width: 50%;
+  padding: 10px;
+}
+
+.articolo{
+  width: 100%;
+  background-color: blue;
+}
+
+/* \corpo pagina\ */
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+/* impostazioni generali */
+h1, p{
+  padding: 2px;
+}
+
+#ombreggiatura{
+  font-weight: 600;
+  text-shadow: 2px 2px 4px black;
+}
+
+.widget, .articolo{
+  color: black;
+  text-align: center;
+  background-color: white;
+  box-shadow: 2px 2px #888888;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.m{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p{
+  cursor: pointer;
+}
+
+/* float */
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+/* \float\ */
+
+/* \impostazioni generali\ */
