@@ -55,6 +55,13 @@ a{
   color: white;
 }
 
+.icona{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
 /* float */
 .f-l {
   float: left;
@@ -109,9 +116,8 @@ nav{
   font-size: 8px;
 }
 .nav-inline > h2{
-  padding: 10px;
+  padding: 20px;
   display: inline-block;
-  position: relative;
 }
 .nav-inline > h2:hover{
   background: lightgray;
@@ -127,16 +133,10 @@ nav{
 .widget{
   width: 100%;
 }
-.widget:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .widget h2{
   width: 60%;
   font-weight: 600;
 }
-
 
 .corpo{
   width: 50%;
@@ -151,21 +151,20 @@ nav{
 
 /* footer */
 .footer{
-  width: 100%;
+  text-align: center;
   background-color: white;
   border: 1px solid white;
   border-radius: 10px 10px 10px 10px;
 }
-footer:after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 #autore{
   text-align: center;
 }
 hr{
   border-style: inset;
 }
-.social{}
+.social{
+  position: relative;
+  display: inline-block;
+}
 /* \footer\ */
