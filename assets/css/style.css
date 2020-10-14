@@ -1,6 +1,5 @@
+/* impostazioni generali */
 *{
-  width: auto;
-  height: auto;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,10 +8,9 @@
 body{
   width: 100vw;
   margin-top: 20px;
-  position: relative;
-  background-image: url(https://media.istockphoto.com/photos/old-distressed-light-wood-texture-background-picture-id489904811);
-  background-size: cover;
+  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png");
 }
+
 main{
   width: 100%
 }
@@ -22,61 +20,6 @@ main:after{
   clear: both;
 }
 
-.container{
-  width: 65%;
-  margin: 0 auto;
-}
-
-
-.intestazione{
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  background-color: orange;
-  /* background-image: url(https://happytobehere.it/wp-content/uploads/2017/11/Dark-Hedges-1d-e1511280203785.jpg); */
-}
-
-/* corpopagina */
-.colonna{
-  width: 25%;
-  padding: 10px;
-}
-
-.widget{
-  width: 100%;
-}
-.widget:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.widget h2{
-  width: 60%;
-  font-weight: 600;
-}
-
-
-.corpo{
-  width: 50%;
-  padding: 10px;
-}
-
-.articolo{
-  width: 100%;
-  background-color: blue;
-}
-
-/* \corpo pagina\ */
-
-.footer{
-  width: 100%;
-  height: 100px;
-  background-color: red;
-  border-radius: 10px 10px 10px 10px;
-}
-
-
-/* impostazioni generali */
 h1, p{
   padding: 2px;
 }
@@ -103,6 +46,16 @@ h1, p{
   cursor: pointer;
 }
 
+.container{
+  width: 65%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 /* float */
 .f-l {
   float: left;
@@ -113,3 +66,89 @@ h1, p{
 /* \float\ */
 
 /* \impostazioni generali\ */
+
+
+
+/* header e nav */
+.header-nav{
+  width: 100%;
+  padding: 10px;
+  /* background-color: white; */
+  background-color: black;
+  color: white;
+}
+header{
+  width: 100%;
+  /* height: 800px; */
+  position: relative;
+  border: 1px solid white;
+}
+header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.header-background{
+  width: 90%;
+}
+.header-logo{
+  width: 50%;
+}
+nav > h2{
+  display: inline;
+  text-align: center;
+}
+#titolo{}
+/* \header e nav\ */
+
+/* corpo pagina */
+.colonna{
+  width: 25%;
+  padding: 10px;
+}
+
+.widget{
+  width: 100%;
+}
+.widget:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.widget h2{
+  width: 60%;
+  font-weight: 600;
+}
+
+
+.corpo{
+  width: 50%;
+  padding: 10px;
+}
+
+.articolo{
+  width: 100%;
+}
+
+/* \corpo pagina\ */
+
+/* footer */
+.footer{
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 10px;
+}
+footer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#autore{
+  text-align: center;
+}
+hr{
+  border-style: inset;
+}
+.social{}
+/* \footer\ */
