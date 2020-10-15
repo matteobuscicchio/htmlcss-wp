@@ -166,12 +166,16 @@ nav{
 }
 
 #autore{
+  padding: 5px;
   text-align: center;
 }
 hr{
   border-style: inset;
 }
 .social{
+  margin: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   position: relative;
   display: inline-block;
 }
